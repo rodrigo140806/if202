@@ -32,9 +32,9 @@ class Persona:
     """
     Nueva clase: Atleta
     """
-    class atleta(persona):
+    class atleta[persona]:
      estatura = 0.0
     def calcular_inc(self):
        return self.peso / (self.estatura * self.estatura)
-    def ___str___(self) #Permite una cadena con todos los datos
+    def ___str___(self):
        return "atleta (nombre{}, peso={}, estatura={})".format(self.nombre, self.peso, self.estatura)
