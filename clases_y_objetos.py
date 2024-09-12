@@ -34,3 +34,4 @@ print(per2.nombre + ', ' + per2.apellido + ', peso: ' + str(per2.peso))
 
 
 
+
