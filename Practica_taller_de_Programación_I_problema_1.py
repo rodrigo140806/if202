@@ -22,7 +22,7 @@ class Atleta(Persona):
           print("La distancia de competencia debe estar entre 20 y 30 kms")
         
 
-atleta = Atleta("Rodrigo Huamaní")
+atleta = Atleta("Rodrigo Huamani")
 atleta.caminar (2)
 atleta.entrada(15)
 atleta.competir(25)
