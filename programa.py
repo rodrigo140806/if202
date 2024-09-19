@@ -3,7 +3,7 @@ Programa que usa las clases declaradas en el archivo clases.py
 Fecha 02/09/2024
 Ultima modificación: 03/07/2024
 """
-import clases as cl
+import class as cl
 # Crear objetos de clase Persona
 per1 = cl.Persona("Juan", 70)
 per2 = cl.Persona("María", 55)
